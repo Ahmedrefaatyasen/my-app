@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import img from "../src/download (1).png"
 
 
 
@@ -14,7 +15,7 @@ export default function MediaCard(props) {
     <Card sx={{ width: "250px" }}>
       <CardMedia
         sx={{ height: 140 }}
-        image=""
+        image={img}
         title="green iguana"
       />
       <CardContent>
